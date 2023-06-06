@@ -1,0 +1,39 @@
+{
+    "name": "Philips Air 2 MQTT",
+    "version": "1.0.0",
+    "slug": "air-to-mqtt",
+    "description": "Philips Air Purifier MQTT Bridge",
+    "url": "https://github.com/r1sim/hassio-addons",
+    "init": false,
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
+    "schema": {
+        "MQTT_HOST": "str",
+        "MQTT_PORT": "port",
+        "MQTT_USERNAME": "str",
+        "MQTT_PASSWORD": "password",
+        "PHILIPS_AIR_HOST": "str",
+        "PHILIPS_AIR_DEVICE_NAME": "str",
+        "PHILIPS_AIR_PROTOCOL": "list(http|coap)",
+        "PHILIPS_AIR_REFRESH_INTERVAL": "str",
+        "MQTT_HA_AD_ENABLED": "bool",
+        "MQTT_HA_AD_DELETE_ON_SHUTDOWN": "bool"
+    },
+    "options": {
+        "MQTT_HOST": "localhost",
+        "MQTT_PORT": 1883,
+        "MQTT_USERNAME": "",
+        "MQTT_PASSWORD": "",
+        "PHILIPS_AIR_HOST": "",
+        "PHILIPS_AIR_DEVICE_NAME": "",
+        "PHILIPS_AIR_PROTOCOL": "http",
+        "PHILIPS_AIR_REFRESH_INTERVAL": "120",
+        "MQTT_HA_AD_ENABLED": true,
+        "MQTT_HA_AD_DELETE_ON_SHUTDOWN": false
+    }
+}
