@@ -1,6 +1,6 @@
 {
     "name": "Philips Air 2 MQTT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "slug": "air-to-mqtt",
     "description": "Philips Air Purifier MQTT Bridge",
     "url": "https://github.com/r1sim/hassio-addons",

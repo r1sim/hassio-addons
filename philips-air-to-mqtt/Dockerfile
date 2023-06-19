@@ -2,7 +2,7 @@
 ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:14.0.0
 
 FROM node:18 as builder
-ARG AIR_TO_MQTT_VERSION=1.2.0
+ARG AIR_TO_MQTT_VERSION=1.2.1
 
 # Create app directory
 WORKDIR /builder
